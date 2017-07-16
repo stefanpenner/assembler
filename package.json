@@ -17,7 +17,10 @@
     "precommit": "lint-staged"
   },
   "lint-staged": {
-    "*.js": ["eslint --fix", "git add"]
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
   },
   "name": "assembler",
   "version": "1.0.0",
@@ -31,5 +34,10 @@
   },
   "author": "Stefan Penner <stefan.penner@gmail.com>",
   "description": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotbars": "^0.0.1",
+    "mr-dep-walk": "^1.2.0",
+    "walk-sync": "^0.3.2"
+  }
 }
